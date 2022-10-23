@@ -11,6 +11,10 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
 }
+.bg-contact{
+    background-image: url("../img/bg-4.png");
+    background-size: cover;
+}
 .text{
     font-family: 'Bad Script', cursive;
     font-weight: 100;
@@ -20,10 +24,6 @@ body{
     animation-direction: alternate; */
     
 }
-/* .home{
-    width: 100vh;
-    height: 100vh;
-} */
 @media screen and (min-width: 600px){
     .about-session{
         background-image: url("../img/bg1.jpg");
@@ -50,11 +50,13 @@ body{
     font-size: 3em;
 }
 .shadow-box{
-    box-shadow: 5px 5px 5px rgb(250, 200, 63);
+    box-shadow: 5px 5px 5px rgb(228, 191, 81);
 }
-.pro-img { 
-    width: 90%;
-    height: 90%;
+.pro-img{
+    width: 75%; 
+    height: 75%;
+}
+.product-item { 
     top:-50px; 
     left:-35px; 
     display:block; 
@@ -65,8 +67,8 @@ body{
     -webkit-transition-timing-function: ease; 
     } 
      
-.pro-img:hover { 
-    transform: scale(1.1); 
+.product-item:hover { 
+    transform: scale(1.05); 
     
     }
     /* @keyframes ani{
