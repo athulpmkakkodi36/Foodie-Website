@@ -12,7 +12,11 @@ body{
     background-repeat: no-repeat;
 }
 .bg-contact{
-    background-image: url("../img/bg-4.png");
+    background-image: url("../img/contact-bg.jpg");
+    background-size: cover;
+}
+.menu-session{
+    background-image: url("../img/menu-bg.jpg");
     background-size: cover;
 }
 .text{
@@ -41,7 +45,6 @@ body{
 .title{
     font-weight: 500;
     color: chocolate;
-    font-size: 1.2em;
 }
 .des{
     font-family: 'Trispace', sans-serif;
@@ -87,6 +90,10 @@ body{
     ul{
         border-radius: 10px;
     }
+    ul:hover{
+        color:chocolate !important ;
+    }
     .meet{
         background-image: url("../img/bg7.jpg");
+        overflow: hidden;
     }
