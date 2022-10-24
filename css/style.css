@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 body{
-    font-family: 'Merienda', cursive;
+    font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
 }
 .banner-image{
@@ -17,6 +18,17 @@ body{
 }
 .menu-session{
     background-image: url("../img/menu-bg.jpg");
+    background-size: cover;
+}
+.news-letter{
+    background-image: url("../img/bg5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:rgb(234, 241, 241);
+}
+.footer-sec{
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .text{
@@ -96,4 +108,7 @@ body{
     .meet{
         background-image: url("../img/bg7.jpg");
         overflow: hidden;
+    }
+    a{
+        text-decoration: none;
     }
